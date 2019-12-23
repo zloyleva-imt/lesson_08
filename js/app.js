@@ -45,7 +45,7 @@ console.log('App was loaded...');
 
 let devices;
 
-const data = fetch('https://api.privatbank.ua/p24api/infrastructure?json&atm&address=&city=Запоріжжя')
+const data = fetch('https://zloyleva-imt.github.io/lesson_08/data.json')
 
 data
     .then(res=>res.json())
